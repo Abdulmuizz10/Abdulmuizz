@@ -25,17 +25,13 @@ const Hero = () => {
 
         <div className="socials">
           <a
-            href="https://web.facebook.com/profile.php?id=100089375211792"
+            href="https://www.facebook.com/profile.php?id=100089375211792"
             target="_blank"
             rel="noreferrer  noopener"
           >
             <i className="bx bxl-facebook"></i>
           </a>
-          <a
-            href="https://www.linkedin.com/in/abdul-muizz-149a8b265/"
-            target="_blank"
-            rel="noreferrer  noopener"
-          >
+          <a href="" target="_blank" rel="noreferrer  noopener">
             <i className="bx bxl-linkedin"></i>
           </a>
           <a

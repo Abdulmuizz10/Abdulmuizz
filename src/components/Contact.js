@@ -9,17 +9,13 @@ const Contact = () => {
           <h3>My social media handles</h3>
           <div className="socials__wrapper">
             <a
-              href="https://web.facebook.com/profile.php?id=100089375211792"
+              href="https://www.facebook.com/profile.php?id=100089375211792"
               target="_blank"
               rel="noreferrer  noopener"
             >
               <i className="bx bxl-facebook"></i>
             </a>
-            <a
-              href="https://www.instagram.com/abdulmuizz89"
-              target="_blank"
-              rel="noreferrer  noopener"
-            >
+            <a href="" target="_blank" rel="noreferrer  noopener">
               <i className="bx bxl-instagram"></i>
             </a>
             <a
