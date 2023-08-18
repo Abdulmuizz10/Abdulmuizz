@@ -19,12 +19,10 @@ const Projects = () => {
           <div className="card__text">
             <h2>Disney-clone Website</h2>
             <p>
-              This is very similar to the original disney plus website. it is
-              only two pages with login authentication using the browser local
-              storage to store the user cresidentials. it has navbar search box
-              with cool click effect same as disney+ and it also has a slider or
-              carousel with infinity or endless effect.it also has a movie
-              cards. with awsome hover effects.
+              This is very similar to the original disney plus website. it has a
+              navbar with cool click effect same as disney+ and it also has a
+              slider or carousel with infinity or endless effect.it also has a
+              movie cards. with awesome hover effects.
             </p>
             <div className="directory">
               <div className="live__demo">
@@ -48,9 +46,8 @@ const Projects = () => {
             <h2>Tesla-clone website</h2>
             <p>
               A responsive real-like tesla clone created with
-              ReactJs,React-router,React-reveal animations and
-              Styled-components. it has nice and amazing pages with cool
-              animation transitions.
+              ReactJs,React-router and Styled-components. it has nice slick
+              design and amazing pages that also features cool graphic images
             </p>
             <div className="directory">
               <div className="live__demo">
@@ -71,13 +68,10 @@ const Projects = () => {
           <div className="card__text">
             <h2>Linked-in Clone website</h2>
             <p>
-              This is a responsive linked-in clone created with ReactJs.The
-              index page contains login and sign forms and this is enabled
-              locally through the user's browsers local-storage which stores the
-              user cresidentials for accessing the homepage.This clone also has
-              an amazing feature which is creation and also deleting posts to
-              wrap this up you can also add images to posts which gives users
-              original linked-in live experience.
+              This is a responsive linked-in clone created with ReactJs.This
+              clone also has an amazing feature which is creation and also
+              deleting posts to wrap this up you can also add images to posts
+              which gives users original linked-in live experience.
             </p>
             <div className="directory">
               <div className="live__demo">
