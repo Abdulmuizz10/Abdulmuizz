@@ -47,6 +47,7 @@ const About = () => {
               <li className="list__item">NODE JS</li>
               <li className="list__item">EXPRESS JS</li>
               <li className="list__item">MONGO DB</li>
+              <li className="list__item">PYTHON</li>
               <li className="list__item">FIREBASE</li>
             </ul>
           </Card>
