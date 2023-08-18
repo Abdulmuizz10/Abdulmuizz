@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: Arial, sans-serif;
+}
+
+:root {
+  --color-primary: #25ab75;
+  --color-primary-dark: #208c61;
+  --color-bg-primary: #1a1a1a;
+  --color-bg-secondary: #242424;
+  --color-bg-footer: #151515;
+  --color-white: #ffffff;
+  --color-text: #676767;
+  --color-border: #373737;
+
+  --fs-md: 1.6rem; /* section subtitle <span> */
+  --fs-lg: 2rem;
+  --fs-xl: 2.4rem; /* section title // <h2> */
+  --fs-xxl: 3.2rem; /* section section title // <h3> */
+  --fs-biggest: clamp(3rem, 8vw, 5rem); /* hero heading */
+  /* font weight */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600; /* button & btn bold */
+  --fw-bold: 700; /* section subtitle bold */
+  --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --big-screen: 13%;
+  --small-screen: 5%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--color-bg-primary);
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text);
+  border-radius: 6px;
+}
