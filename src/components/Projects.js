@@ -53,7 +53,7 @@ const Projects = () => {
             <div className="directory">
               <div className="live__demo">
                 <i className="bx bx-exit"></i>
-                <a href="https://tesla-clone-9ac75.web.app">Live Demo</a>
+                <a href="https://tesla-clone-2v8k.vercel.app">Live Demo</a>
               </div>
               <div className="git__hub">
                 <i className="bx bxl-github"></i>
