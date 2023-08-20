@@ -48,7 +48,7 @@ const Projects = () => {
               A responsive real-like tesla clone created with
               ReactJs,React-router and Styled-components. it has nice slick
               design with smooth animation transitions and also amazing pages
-              that also features cool graphic images
+              that also features cool graphic images.
             </p>
             <div className="directory">
               <div className="live__demo">
