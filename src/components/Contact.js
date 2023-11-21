@@ -2,6 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const Contact = () => {
+  const date = new Date();
+  const updatedYear = date.getFullYear();
+
+  console.log(updatedYear);
   return (
     <Container id="contacts">
       <Content>
@@ -48,7 +52,7 @@ const Contact = () => {
       </Content>
 
       <CopyWrite>
-        <div>©2022 All Rights Reserved | By Abdul Muizz</div>
+        <div>©{updatedYear} All Rights Reserved | By Abdul Muizz</div>
       </CopyWrite>
     </Container>
   );

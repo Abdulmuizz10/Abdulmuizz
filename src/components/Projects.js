@@ -77,7 +77,7 @@ const Projects = () => {
             <div className="directory">
               <div className="live__demo">
                 <i className="bx bx-exit"></i>
-                <a href="https://linked-in-clone-henna.vercel.app/">
+                <a href="https://blinked-in-clone-henna.vercel.app/">
                   Live Demo
                 </a>
               </div>
@@ -90,32 +90,32 @@ const Projects = () => {
             </div>
           </div>
         </Card>
-        {/* <Card>
-            <div className="card__img">
-              <img src="/img/netflix.png" alt="" />
-            </div>
-            <div className="card__text">
-              <h2>Netflix-clone website</h2>
-              <p>
-                This is a simple Netflix clone created with Reactjs. which has a
-                local sign in and login authentication that stores user
-                cresidentials in the browser for accessing the main hompage.
-                this clone has an amazing carousel slider with cool movie card
-                hover effect that reveals movie trailer and info's about the
-                movie.
-              </p>
-              <div className="directory">
-                <div className="live__demo">
-                  <i className="bx bx-exit"></i>
-                  <a href="#">Live Demo</a>
-                </div>
-                <div className="git__hub">
-                  <i className="bx bxl-github"></i>
-                  <a href="#">Github</a>
-                </div>
+        <Card>
+          <div className="card__img">
+            <img src="/img/netflix.png" alt="" />
+          </div>
+          <div className="card__text">
+            <h2>Netflix-clone website</h2>
+            <p>
+              This is a simple Netflix clone created with Reactjs. it has a
+              local sign in and a login page. this clone has an amazing carousel
+              slider with cool movie card hover effects that reveals movie
+              trailer and info's about the movie.
+            </p>
+            <div className="directory">
+              <div className="live__demo">
+                <i className="bx bx-exit"></i>
+                <a href="#">Live Demo</a>
+              </div>
+              <div className="git__hub">
+                <i className="bx bxl-github"></i>
+                <a href="https://github.com/Abdulmuizz10/Netflix-clone">
+                  Github
+                </a>
               </div>
             </div>
-          </Card> */}
+          </div>
+        </Card>
       </Cards>
     </Container>
   );
@@ -141,7 +141,6 @@ const Card = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
-  border-radius: 10px;
   width: 100%;
   height: 290px;
   margin: 30px auto;
@@ -166,6 +165,7 @@ const Card = styled.div`
     border: 2px solid var(--color-border);
     box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
       rgb(0 0 0 / 73%) 0px 16px 10px -10px;
+    border-radius: 10px;
 
     &:nth-child(2) {
       .card__img {
@@ -180,7 +180,7 @@ const Card = styled.div`
     }
   }
 
-  @media (max-width: 568px) {
+  @media (max-width: 1024px) {
     gap: 0rem;
     grid-template-columns: 1fr;
   }

@@ -64,6 +64,7 @@ const Container = styled.div`
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  place-items: center;
   align-items: center;
   justify-content: center;
   gap: 5rem;
@@ -76,7 +77,7 @@ const Container = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: 3rem;
-    margin: 50px 0;
+    margin: 50px auto;
   }
   .hero__text {
     h2 {

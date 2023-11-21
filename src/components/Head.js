@@ -145,6 +145,7 @@ const MobileNavBar = styled.div`
   display: none;
   position: relative;
   background: var(--color-bg-primary);
+  animation: slideIn 0.5s;
 
   @media (max-width: 1024px) {
     position: absolute;

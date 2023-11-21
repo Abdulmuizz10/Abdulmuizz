@@ -12,6 +12,7 @@
   --color-primary: #25ab75;
   --color-primary-dark: #208c61;
   --color-bg-primary: #1a1a1a;
+  --color-bg-primary: #1a1a1a;
   --color-bg-secondary: #242424;
   --color-bg-footer: #151515;
   --color-white: #ffffff;
@@ -51,4 +52,15 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--color-text);
   border-radius: 6px;
+}
+
+@keyframes slideIn {
+  0% {
+    -webkit-transform: translateY(-25%);
+    transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }

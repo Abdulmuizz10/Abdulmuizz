@@ -34,9 +34,9 @@ const About = () => {
             <ul className="skills__list">
               <li className="list__item">HTML</li>
               <li className="list__item">CSS</li>
-              <li className="list__item">SCSS</li>
+              <li className="list__item">SASS</li>
               <li className="list__item">JAVASCRIPT</li>
-              <li className="list__item">JQUERY</li>
+              <li className="list__item">TAILWIND</li>
               <li className="list__item">REACT JS</li>
             </ul>
           </Card>
@@ -47,7 +47,7 @@ const About = () => {
               <li className="list__item">NODE JS</li>
               <li className="list__item">EXPRESS JS</li>
               <li className="list__item">MONGO DB</li>
-              <li className="list__item">PYTHON</li>
+              <li className="list__item">CLERK</li>
               <li className="list__item">FIREBASE</li>
             </ul>
           </Card>
