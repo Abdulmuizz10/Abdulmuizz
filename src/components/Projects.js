@@ -90,7 +90,7 @@ const Projects = () => {
             </div>
           </div>
         </Card>
-        <Card>
+        {/* <Card>
           <div className="card__img">
             <img src="/img/netflix.png" alt="" />
           </div>
@@ -115,7 +115,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        </Card>
+        </Card> */}
       </Cards>
     </Container>
   );
