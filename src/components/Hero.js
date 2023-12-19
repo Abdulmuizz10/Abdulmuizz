@@ -80,6 +80,7 @@ const Container = styled.div`
     margin: 50px auto;
   }
   .hero__text {
+    animation: animateleft 1s linear;
     h2 {
       font-size: var(--fs-biggest);
       color: var(--color-white);
@@ -130,6 +131,7 @@ const Container = styled.div`
 
   .hero__img {
     max-width: 350px;
+    animation: animateright 1s linear;
 
     @media (max-width: 768px) {
       margin: auto;

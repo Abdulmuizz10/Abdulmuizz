@@ -152,11 +152,11 @@ const Card = styled.div`
     }
   }
 
-  &:nth-child(4) {
+  /* &:nth-child(4) {
     .card__img {
       order: 2;
     }
-  }
+  } */
 
   @media (max-width: 1024px) {
     gap: 2rem;
@@ -173,11 +173,11 @@ const Card = styled.div`
       }
     }
 
-    &:nth-child(4) {
+    /* &:nth-child(4) {
       .card__img {
         order: 0;
       }
-    }
+    } */
   }
 
   @media (max-width: 1024px) {
